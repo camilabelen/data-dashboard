@@ -21,6 +21,7 @@ body{
 #logo{
 	background-color: #FFF;
 	width: 250px;
+	height: 60px;
 	margin-left: 0;
 }
 
@@ -64,6 +65,10 @@ body{
 }
 
 /*lista para filtrar*/
+
+#lateralMenu nav{
+	position:relative;
+}
 #filter{
 	list-style-type: none;
 	padding-left: 15px;
@@ -72,4 +77,14 @@ body{
 #filter li{
 	margin: 5px;
 	padding: 10px;
+}
+
+#bottom{
+	position:absolute;
+	bottom: 80px;
+	margin: 20px;
+}
+
+.icon-eye-blocked{
+	margin-left: 180px;
 }

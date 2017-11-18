@@ -7,7 +7,7 @@ body{
 
 }
 
-/*Menú global*/
+/*___Menú global_________________________________________________*/
 #globalMenu{
 	margin:0 auto;
 	width: 100%;
@@ -56,7 +56,13 @@ body{
 	margin: 10px;
 }
 
-/*Sub Menu*/
+/*___Sub Menu____________________________________________________*/
+
+.dashboard{
+	margin-left: 17%;
+	margin-top: 10px;
+	font-weight: 500;
+}
 
 #subMenu{
 	margin: 0 auto;
@@ -72,13 +78,13 @@ body{
 
 #subMenu li{
 	display: inline-block;
-	margin: 20px;
+	margin: 15px;
 	font-weight: 600;
 	font-size: 1.2em;
 }
 
 
-/*menú lateral*/
+/*___menú lateral__________________________________________________*/
 #lateralMenu{
 	width: 13%;
 	height: 100%;
@@ -86,6 +92,7 @@ body{
 	padding-top: 80px;
 	position:fixed;
 	z-index: 1;
+	font-size:1.1em;
 }
 
 /*foto usuario*/
@@ -108,6 +115,17 @@ body{
 #filter li{
 	margin: 5px;
 	padding: 10px;
+}
+
+/*icono home*/
+
+.icon-home{
+	margin-right: 10px;
+}
+
+/*icono para desplegar filtros*/
+.fa-caret-down{
+	float:right;
 }
 
 #bottom{

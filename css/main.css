@@ -12,12 +12,13 @@ body{
 	margin:0 auto;
 	width: 100%;
 	height: 60px;
-	background-color: #FFD800;
+	background-color: #FFC600;
 	position: fixed;
 	padding-left: 0;
 	z-index: 2;
 }	
 
+/*Logo laboratoria*/
 #logo{
 	background-color: #FFF;
 	width: 250px;
@@ -29,30 +30,59 @@ body{
 	width: 180px;
 	margin-left: 30px;
 	vertical-align: middle;
-
 }
 
 #globalMenu li{
 	display: inline-block;
 	text-decoration: none;
 	vertical-align: middle;
-
 }
 
+/*barra de búsqueda*/
 #globalMenu input{
 	margin-left: 1200px;
 	width: 300px;
 	border: none;
 	border-radius: 10px;
 	padding: 5px 0 5px 30px;
+	background-image: url(../assets/images/search_icon.png);
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
 }
 
-/*menú lateral*/
+/*iconos menu superior*/
+.icon-share2, .icon-download2, .icon-printer{
+	margin: 10px;
+}
 
+/*Sub Menu*/
+
+#subMenu{
+	margin: 0 auto;
+	width: 87%;
+	height: 40px;
+	position: fixed;
+	margin-top: 60px;
+}
+
+#subMenu li:first-child{
+	margin-left: 15%;
+}
+
+#subMenu li{
+	display: inline-block;
+	margin: 20px;
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
+
+/*menú lateral*/
 #lateralMenu{
-	width: 250px;
+	width: 13%;
 	height: 100%;
-	background-color: #FFD800;
+	background-color: #FFC600;
 	padding-top: 80px;
 	position:fixed;
 	z-index: 1;
@@ -69,6 +99,7 @@ body{
 #lateralMenu nav{
 	position:relative;
 }
+
 #filter{
 	list-style-type: none;
 	padding-left: 15px;

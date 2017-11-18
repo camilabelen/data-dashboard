@@ -3,12 +3,50 @@
   <head>
     <meta charset="utf-8">
     <title>Data Dashboard</title>
+    <link rel="stylesheet" href="assets/icomoon/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
+
   </head>
   <body>
+    <header>
+       <nav>
+        <ul id="globalMenu">
+          <li><img src="assets/images/logo-laboratoria.svg" alt="logo Laboratoria"> </li>
+          <li><input type="text" id="searchBar" placeholder="Search"><span class="icon-search"></span></li>
+          <li><span class="icon-share2"></span></li>
+          <li><span class="icon-download2"></span></li>
+          <li><span class="icon-printer"></span></li>
+        </ul>
+      </nav>
+    </header>
+    <aside id="lateralMenu">
+      <nav>
+        <div id="user">
+          <img src="assets/images/women-icon-61339.png" alt="Avatar">
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+        <ul id="filter">
+          <li><span class="icon-home"></span>Home</li>
+          <li>Año<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+          <li>Generación<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+          <li>Turno<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+          <li><span class="icon-cog"></span><span class="icon-eye-blocked"></span></li>
+        </ul>
+      </nav>
+    </aside>
+
+
+
 
 		<!-- Base de datos -->
 		<script src="./js/data.js"></script>
 		<!-- Aquí va tus archivos JS -->
     <script src="./js/app.js"></script>
+
   </body>
+ 
 </html>

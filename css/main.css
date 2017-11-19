@@ -54,6 +54,7 @@ body{
 /*iconos menu superior*/
 .icon-share2, .icon-download2, .icon-printer{
 	margin: 10px;
+	font-size: 1.1em;
 }
 
 /*___Sub Menu____________________________________________________*/

@@ -138,3 +138,72 @@ body{
 .icon-eye-blocked{
 	margin-left: 180px;
 }
+/* Agregando Graficos*/
+#grafico1 {
+    border-radius: 50em 50em;
+    position: fixed;
+    height: 95px;
+    width: 95px;
+    border: 17px solid cornflowerblue;
+    margin: 9em 10em;
+}
+.g1 {
+    margin-left: 164%;
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+
+#grafico2 {
+	border-radius: 50em 50em;
+    position: fixed;
+    height: 95px;
+    width: 95px;
+    border: 17px solid cornflowerblue;
+    margin: 9em 29em;
+}
+
+.g2 {
+    margin-left: 188%;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+
+    /*
+    margin: -3em 21em;
+}
+.ntecnico {
+	border: solid black;
+    height: 205px;
+    width: 410px;
+    margin: 13em -2em;
+    opacity: 0.5
+}
+.linea1 {
+	margin: -11em 13em;
+	font-size: 12px;
+}
+
+.linea2 {
+	margin: -11em 13em;
+	font-size: 12px;
+}
+.linea3 {
+	margin: -11em 13em;
+	font-size: 12px;
+}
+
+
+.a {
+	margin-top: 12px;
+	margin-left: 12px;
+}
+.b {
+	margin-top: 12px;
+	margin-left: 12px;
+}
+.c {
+	margin-top: 12px;
+	margin-left: 12px;
+}

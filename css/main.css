@@ -84,6 +84,9 @@ body{
 	font-size: 1.2em;
 }
 
+#subMenu li a{
+	text-decoration: none;
+}
 
 /*___menú lateral__________________________________________________*/
 #lateralMenu{

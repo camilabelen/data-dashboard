@@ -28,10 +28,10 @@
       <nav id="subMenu">
         <div class="dashboard">Dashboard</div>
         <div class="ruta"></div>
-        <ul>
-          <li>Overview</li>
-          <li>Sprints</li>
-          <li>Students</li>
+        <ul id="tabs" >
+          <li><a href="#">Overview</a></li>
+          <li><a href="#">Sprints</a></li>
+          <li><a href="#">Students</a></li>
         </ul>
       </nav>
     </header>
@@ -66,15 +66,33 @@
         </div>
         <ul id="filter">
           <li><span class="icon-home"></span>Home</li>
-          <li>Año<i class="fa fa-caret-down" aria-hidden="true"></i></li>
-          <li>Generación<i class="fa fa-caret-down" aria-hidden="true"></i></li>
-          <li>Turno<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+           <!-- filtro año -->
+          <li>Año<i class="fa fa-caret-down" aria-hidden="true" onclick="showYear()"></i>
+            <div id="yearInput">
+              <input type="radio" name="año">2014
+              <input type="radio" name="año">2015
+              <input type="radio" name="año">2016
+              <input type="radio" name="año" checked>2017
+            </div>
+          </li>
+          <!-- filtro generacion -->
+          <li id="second">Generación<i class="fa fa-caret-down" aria-hidden="true"></i>
+            <div id="gInput">
+              <input type="radio" name="generacion">I
+              <input type="radio" name="generacion">II
+            </div>
+          </li>  
+          <!-- filtro turno -->
+          <li id="third">Turno<i class="fa fa-caret-down" aria-hidden="true"></i>
+            <div id="turno">
+              <input type="radio" name="turno">AM</p>
+              <input type="radio" name="turno">PM
+            </div>
+          </li>  
         </ul>
       </nav>
       <div id="bottom"><span class="icon-cog"></span><span class="icon-eye-blocked"></span></div>
     </aside>
-
-
 
 
 		<!-- Base de datos -->

@@ -48,6 +48,14 @@
         </div>
         <ul id="filter">
           <li><span class="icon-home"></span>Home</li>
+          <!-- filtro por sede -->
+          <li>Sede<i class="fa fa-caret-down" aria-hidden="true"></i>
+            <div id="yearInput">
+              <input type="radio" name="sede">Arequipa<br>
+              <input type="radio" name="sede">Ciudad de México<br>
+              <input type="radio" name="sede">Lima<br>
+              <input type="radio" name="sede" checked>Santiago de Chile<br>
+            </div>
            <!-- filtro año -->
           <li>Año<i class="fa fa-caret-down" aria-hidden="true" onclick="showYear()"></i>
             <div id="yearInput">
@@ -61,7 +69,7 @@
           <li id="second">Generación<i class="fa fa-caret-down" aria-hidden="true"></i>
             <div id="gInput">
               <input type="radio" name="generacion">I
-              <input type="radio" name="generacion">II
+              <input type="radio" name="generacion" checked>II
             </div>
           </li>  
           <!-- filtro turno -->
@@ -80,12 +88,13 @@
     <!--  -->
     <section id="secciones">
       <article id="overview" class="tabcontent">
-        <h1>Overview</h1>
         <div id="grafico1">
           <p class="g1">Alumnas Inscritas</p>
+          <p class="total">59</p>
         </div>
         <div id="grafico2">
           <p class="g2">Deserciones</p>
+          <p class="total">33</p>
         </div>
         <div></div>
        <!-- 

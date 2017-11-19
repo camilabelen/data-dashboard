@@ -156,34 +156,45 @@ div.tabs button.active {
 .icon-eye-blocked{
 	margin-left: 180px;
 }
+
 /* Agregando Graficos*/
-#grafico1 {
-    border-radius: 50em 50em;
-    position: fixed;
-    height: 95px;
-    width: 95px;
-    border: 17px solid cornflowerblue;
-    margin: 9em 10em;
+#grafico1{
+	display: inline-flex;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    border: 17px solid #6495ED;
+    margin-top: 2.5%;
+    text-align: center;
 }
-.g1 {
-    margin-left: 164%;
+
+.total{
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: 600;
+	margin: 10px;
+}
+
+.g1{
+	display: inline-flex;
+   	margin-left: 150px;
     margin-top: 8px;
     font-weight: 500;
 }
 
-
-#grafico2 {
-	border-radius: 50em 50em;
-    position: fixed;
-    height: 95px;
-    width: 95px;
-    border: 17px solid cornflowerblue;
-    margin: 9em 29em;
+#grafico2{
+	display: inline-flex;
+	border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    border: 17px solid #6495ED;
+    margin-left: 13%;
 }
 
-.g2 {
-    margin-left: 188%;
-    margin-top: 10px;
+.g2{
+	display: inline-flex;
+   	margin-left: 150px;
+    margin-top: 8px;
     font-weight: 500;
 }
 

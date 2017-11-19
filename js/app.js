@@ -42,3 +42,7 @@ function openCharts(evt, chartsName) {
     document.getElementById(chartsName).style.display = "block";
     evt.currentTarget.className += "active";
 }
+
+
+
+

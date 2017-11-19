@@ -7,10 +7,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
-  
-
-
   </head>
+  
   <body>
     <header>
       <!-- Primer menú -->
@@ -28,33 +26,16 @@
       <nav id="subMenu">
         <div class="dashboard">Dashboard</div>
         <div class="ruta"></div>
-        <ul id="tabs" >
-          <li><a href="#">Overview</a></li>
-          <li><a href="#">Sprints</a></li>
-          <li><a href="#">Students</a></li>
+        <ul id="tabs">
+          <li active><button class="tabLinks" onclick="openCharts()">Overview</button></li>
+          <li><button class="tabLinks" onclick="openCharts()">Sprints</button></li>
+          <li><button class="tabLinks" onclick="openCharts()">Students</button></li>
         </ul>
       </nav>
     </header>
     <!--agregando graficos -->
-     <div>
-      <div id="grafico1">
-      <p class="g1"> Alumnas Inscritas</p> </div>
-
-       <div id="grafico2">
-        <p class="g2">Deserciones</p>
-        </div>
-        <div></div>
-        </div>
-     <!-- 
-         <li class="ntecnico">Nivel Tecnico</li>
-         <li class="linea1">Alumnas sobre el 90%</li>
-         <hr class="a">
-         <li class="linea2">Alumnas en el 70 y 90%</li>
-         <hr class="b">
-         <li class="linea3">Alumnas bajo el 70%</li>
-         <hr class="c">
-     </div>
-     -->
+   
+    
     <!-- menu lateral -->
     <aside id="lateralMenu">
       <nav>
@@ -69,10 +50,10 @@
            <!-- filtro año -->
           <li>Año<i class="fa fa-caret-down" aria-hidden="true" onclick="showYear()"></i>
             <div id="yearInput">
-              <input type="radio" name="año">2014
-              <input type="radio" name="año">2015
-              <input type="radio" name="año">2016
-              <input type="radio" name="año" checked>2017
+              <input type="radio" name="año">2014<br>
+              <input type="radio" name="año">2015<br>
+              <input type="radio" name="año">2016<br>
+              <input type="radio" name="año" checked>2017<br>
             </div>
           </li>
           <!-- filtro generacion -->
@@ -85,16 +66,49 @@
           <!-- filtro turno -->
           <li id="third">Turno<i class="fa fa-caret-down" aria-hidden="true"></i>
             <div id="turno">
-              <input type="radio" name="turno">AM</p>
+              <input type="radio" name="turno">AM
               <input type="radio" name="turno">PM
             </div>
           </li>  
         </ul>
       </nav>
+      <!-- configuracion -->
       <div id="bottom"><span class="icon-cog"></span><span class="icon-eye-blocked"></span></div>
     </aside>
 
+    <!--  -->
+    <section id="secciones">
+      <article id="overview" class="tabcontent" active>
+        <h1>Overview</h1>
+        <div id="grafico1">
+          <p class="g1">Alumnas Inscritas</p>
+        </div>
+        <div id="grafico2">
+          <p class="g2">Deserciones</p>
+        </div>
+        <div></div>
+       <!-- 
+         <li class="ntecnico">Nivel Tecnico</li>
+         <li class="linea1">Alumnas sobre el 90%</li>
+         <hr class="a">
+         <li class="linea2">Alumnas en el 70 y 90%</li>
+         <hr class="b">
+         <li class="linea3">Alumnas bajo el 70%</li>
+         <hr class="c">
+        </div>
+        -->
 
+      </article>
+      <article id="sprints" class="tabcontent">
+        <h1>Sprints</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptas qui magni ex delectus similique, quos, deserunt obcaecati sapiente vero repellendus, vel alias doloremque nam, magnam quidem dolore consequuntur aliquid!</p>
+      </article>
+      <article id="students" class="tabcontent">
+        <h1>Students</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi temporibus illo iure cumque ipsa reiciendis corporis odio praesentium, possimus facere porro fugiat a vero assumenda, provident dignissimos perspiciatis, maiores blanditiis.</p>
+      </article>
+    </section>
+  
 		<!-- Base de datos -->
 		<script src="./js/data.js"></script>
 		<!-- Aquí va tus archivos JS -->

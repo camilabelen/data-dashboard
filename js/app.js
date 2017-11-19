@@ -26,7 +26,7 @@ google.charts.load('current', {packages: ['corechart']});
 google.charts.setOnLoadCallback(drawChart);
 
 
-/*funciòn de intento de navegacion por tabs*/
+/*función de intento de navegacion por tabs*/
 function openCharts(evt, chartsName) {
      var i, tabcontent, tablinks;
     var tabcontent = document.getElementsByClassName("tabcontent");

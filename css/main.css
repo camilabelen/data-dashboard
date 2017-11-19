@@ -70,37 +70,37 @@ body{
 	width: 87%;
 	height: 40px;
 	position: fixed;
-	margin-top: 60px;
+	margin-top: 4%;
 }
 
-#tabs{
+div.tabs{
 	overflow: hidden;
-	border: 1px solid #ccc;
-	background-color: #f1f1f1;
 	display: inline-flex;
-	margin-left: 14%;
+	margin-left: 16%;
 }
 
-#tabs button{
-	background-color: inherit;
+div.tabs button {
+    background-color: inherit;
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
+    margin-top: 30px;
     padding: 14px 16px;
     transition: 0.3s;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-#tab button.active {
+div.tabs button:hover {
+    background-color: #ddd;
+}
+
+div.tabs button.active {
     background-color: #ccc;
 }
 
-#tabs li{
-	list-style: none;
-	margin: 15px;
-	font-weight: 600;
-	font-size: 1.2em;
-}
 
 
 /*___menú lateral__________________________________________________*/
@@ -231,7 +231,7 @@ body{
 #secciones{
 	width: 82%;
 	height: auto;
-	margin-left: 15%;
+	margin-left: 14%;
     display: inline-block;
     margin-top: 10%
 }
@@ -240,6 +240,6 @@ body{
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
-    border-top: none;
+    border: none;
 }
 

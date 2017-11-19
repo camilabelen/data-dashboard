@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
   </head>
-  
+
   <body>
     <header>
       <!-- Primer menú -->
@@ -26,11 +26,12 @@
       <nav id="subMenu">
         <div class="dashboard">Dashboard</div>
         <div class="ruta"></div>
-        <ul id="tabs">
-          <li active><button class="tabLinks" onclick="openCharts()">Overview</button></li>
-          <li><button class="tabLinks" onclick="openCharts()">Sprints</button></li>
-          <li><button class="tabLinks" onclick="openCharts()">Students</button></li>
-        </ul>
+        <!-- menu navegacion por tabs -->
+        <div class="tabs">
+          <button class="tabLinks" onclick="openCharts(event, 'overview')">Overview</button>
+          <button class="tabLinks" onclick="openCharts(event, 'sprints')">Sprints</button>
+          <button class="tabLinks" onclick="openCharts(event, 'students')">Students</button>
+        </div>
       </nav>
     </header>
     <!--agregando graficos -->
@@ -78,7 +79,7 @@
 
     <!--  -->
     <section id="secciones">
-      <article id="overview" class="tabcontent" active>
+      <article id="overview" class="tabcontent">
         <h1>Overview</h1>
         <div id="grafico1">
           <p class="g1">Alumnas Inscritas</p>

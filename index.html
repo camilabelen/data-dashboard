@@ -48,15 +48,16 @@
         <ul id="filter">
           <li><span class="icon-home"></span>Home</li>
           <!-- filtro por sede -->
-          <li>Sede<i class="fa fa-caret-down" aria-hidden="true"></i>
-            <div id="yearInput">
+          <li>Sede
+            <div id="sede">
               <input type="radio" name="sede">Arequipa<br>
               <input type="radio" name="sede">Ciudad de México<br>
               <input type="radio" name="sede">Lima<br>
               <input type="radio" name="sede" checked>Santiago de Chile<br>
             </div>
+          </li>
            <!-- filtro año -->
-          <li>Año<i class="fa fa-caret-down" aria-hidden="true" onclick="showYear()"></i>
+          <li>Año
             <div id="yearInput">
               <input type="radio" name="año">2014<br>
               <input type="radio" name="año">2015<br>
@@ -65,14 +66,14 @@
             </div>
           </li>
           <!-- filtro generacion -->
-          <li id="second">Generación<i class="fa fa-caret-down" aria-hidden="true"></i>
+          <li id="second">Generación
             <div id="gInput">
               <input type="radio" name="generacion">I
               <input type="radio" name="generacion" checked>II
             </div>
           </li>  
           <!-- filtro turno -->
-          <li id="third">Turno<i class="fa fa-caret-down" aria-hidden="true"></i>
+          <li id="third">Turno
             <div id="turno">
               <input type="radio" name="turno">AM
               <input type="radio" name="turno">PM
@@ -84,8 +85,9 @@
       <div id="bottom"><span class="icon-cog"></span><span class="icon-eye-blocked"></span></div>
     </aside>
 
-    <!--  -->
+    <!-- secciones menu tabs -->
     <section id="secciones">
+      <!-- Overview -->
       <article id="overview" class="tabcontent">
         <div id="grafico1">
           <p class="g1">Alumnas Inscritas</p>
@@ -107,7 +109,8 @@
         </div>
         -->
       </article>
-      <!-- SPRINTS -->
+
+      <!-- Sprints -->
       <article id="sprints" class="tabcontent">
         <h1>Sprints</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptas qui magni ex delectus similique, quos, deserunt obcaecati sapiente vero repellendus, vel alias doloremque nam, magnam quidem dolore consequuntur aliquid!</p>
@@ -123,15 +126,9 @@
         </div>
         <!-- foto -->
         <div class="perfil">
-          <div>
-            <img src="assets/images/fotoalumna.jpg" alt="foto perfil alumna">
-            <p id="name">Blabla</p>
-            <p id="specialization">Frontend Developer</p>
-          </div>
+          <div id="studentInfo"></div>
           <!-- cuadros de puntaje-->
-          <div>
-            
-          </div>
+          <div id="percent"></div>
           
         </div>
       </article>
@@ -141,7 +138,8 @@
 		<script src="./js/data.js"></script>
 		<!-- Aquí va tus archivos JS -->
     <script src="js/app.js"></script>
-
+    <!-- graficos -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
   </body>
  
 </html>

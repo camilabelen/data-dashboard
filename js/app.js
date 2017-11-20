@@ -3,6 +3,34 @@
  */
 
 // Puedes hacer uso de la base de datos a través de la variable `data`
+
+
+/*grafico 1 inscritas y deserciones*/
+
+google.load("visualization", "1.0", {
+    "packages": ["corechart"]
+});
+google.setOnLoadCallback(dibujar);
+
+function dibujar(){
+  var data1 = new google.visualization.DataTable();
+  data1.addColumn("string", "Alumnas");
+  data1.addColumn("number", "Actividad");
+  data1.addRows(
+    [
+      ["Activas",26],
+      ["Inactivas",33],
+    ]
+  );
+  var opciones1 = {
+    title: "Alumnas",
+    pieHole: 0.3,
+  };
+  var grafica1 = new google.visualization.PieChart(document.getElementById("grafico1"));
+  grafica1.draw(data1,opciones1);
+}
+
+/*grafico de nivel técnico*/
 google.charts.load('current', {packages: ['corechart']});
       function drawChart ()
       {
@@ -26,7 +54,7 @@ google.charts.load('current', {packages: ['corechart']});
 google.charts.setOnLoadCallback(drawChart);
 
 
-/*función de intento de navegacion por tabs*/
+/*función de navegacion por tabs*/
 function openCharts(evt, chartsName) {
      var i, tabcontent, tablinks;
     var tabcontent = document.getElementsByClassName("tabcontent");
@@ -43,6 +71,7 @@ function openCharts(evt, chartsName) {
     evt.currentTarget.className += "active";
 }
 
+/*accediendo a data para seccion 'estudiantes'*/
 
 
 

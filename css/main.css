@@ -158,7 +158,6 @@ div.tabs button.active {
 	transform: scale(1.5);
 }
 
-
 #bottom{
 	position:absolute;
 	bottom: 80px;
@@ -299,5 +298,5 @@ div.tabs button.active {
 
 .perfil p{
 	display: inline-block;
-	
+
 }

@@ -63,6 +63,7 @@ body{
 	margin-left: 17%;
 	margin-top: 10px;
 	font-weight: 500;
+	font-size: 1.3em;
 }
 
 #subMenu{
@@ -86,11 +87,12 @@ div.tabs button {
     outline: none;
     cursor: pointer;
     margin-top: 30px;
-    padding: 14px 16px;
+    padding: 14px 25px;
     transition: 0.3s;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 600;
     font-family: 'Ubuntu', sans-serif;
+    color: #2B2B2B;
 }
 
 div.tabs button:hover {
@@ -111,13 +113,17 @@ div.tabs button.active {
 	padding-top: 80px;
 	position:fixed;
 	z-index: 1;
-	font-size:1.1em;
+	font-size:1.3em;
 }
 
 /*foto usuario*/
-#lateralMenu img{
+#user img{
 	width: 80px;
 	margin: 20px;
+}
+
+#user p{
+	display: inline-block;
 }
 
 /*lista para filtrar*/
@@ -146,6 +152,12 @@ div.tabs button.active {
 .fa-caret-down{
 	float:right;
 }
+
+/*input radio*/
+#filter input[type=radio]{
+	transform: scale(1.5);
+}
+
 
 #bottom{
 	position:absolute;
@@ -254,3 +266,38 @@ div.tabs button.active {
     border: none;
 }
 
+/*_______Seccion estudiantes____________________________*/
+
+.menu{
+	float:left;
+	width: 300px;	
+	font-size: 1.3em;
+	margin: 10px;
+}
+
+.menu input[type=checkbox]{
+	transform: scale(1.5);
+  	padding: 10px;
+  	margin: 10px 20px 10px 5px;
+}
+
+.menu p{
+	font-size: 1.4em;
+	font-weight: 500;
+}
+
+.perfil{
+	float:left;
+}
+
+.perfil img{
+	width: 150px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+.perfil p{
+	display: inline-block;
+	
+}

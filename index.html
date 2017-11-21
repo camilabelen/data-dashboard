@@ -31,12 +31,13 @@
       <!-- sub menu de overview, sprints y students -->
       <nav id="subMenu">
         <div class="dashboard">Dashboard</div>
-        <div class="ruta"></div>
+        
         <!-- menu navegacion por tabs -->
         <div class="tabs">
           <button class="tabLinks" onclick="openCharts(event, 'overview')">Overview</button>
           <button class="tabLinks" onclick="openCharts(event, 'sprints')">Sprints</button>
           <button class="tabLinks" onclick="openCharts(event, 'students')">Students</button>
+          <button class="tabLinks" onclick="openCharts(event, 'teachers')">Teachers</button>
         </div>
       </nav>
     </header>
@@ -97,25 +98,43 @@
     <section id="secciones">
       <!-- Overview -->
       <article id="overview" class="tabcontent">
-        <div id="grafico1">
-          <p>Inscritas</p>
-          <br>
-          <p>59</p>
+        <div id="firstRow">
+          <div id="grafico1">
+            <p>Inscritas</p>
+          
+            <p>59</p>
+          </div>
+          <div id="grafico2">
+            <img src="assets/images/SCL2017-2.png" alt="enrollment">
+          </div>
+          <div id="achievement">
+            <img src="assets/images/achievement.png" alt="achievement">
+          </div>
         </div>
-        <div id="grafico2">
-          <img src="assets/images/SCL2017-2.png" alt="grafico">
+        <div id="secondRow">
+          <div id="techSkills">
+            <img src="assets/images/techSkills.png" alt="tech skills chart">
+          </div>
         </div>
-        <div></div>
-       <!-- 
-         <li class="ntecnico">Nivel Tecnico</li>
-         <li class="linea1">Alumnas sobre el 90%</li>
-         <hr class="a">
-         <li class="linea2">Alumnas en el 70 y 90%</li>
-         <hr class="b">
-         <li class="linea3">Alumnas bajo el 70%</li>
-         <hr class="c">
+        <div id="thirdRow">
+          <div id="lifeSkills">
+            <img src="assets/images/lifeSkills.png" alt="life skills chart">
+          </div>
         </div>
-        -->
+        <div id="fourthRow">
+          <div id="NPS">
+            <img src="assets/images/nps.png" alt="net promoter score">
+          </div>
+          <div id="studentSatisfaction">
+            <img src="assets/images/studentSatisfaction.png" alt="student satisfaction chart">
+          </div>
+          <div id="teacherRating">
+            <img src="assets/images/teacherRating.png" alt="">
+          </div>
+          <div id="jediRating">
+            <img src="assets/images/jediRating.png" alt="">
+          </div>
+        </div>
       </article>
 
       <!-- Sprints -->
@@ -137,8 +156,8 @@
           <img src="assets/images/SCL20171390.jpg">
           </div>
           <p>Especialización</p>
-          <input type="checkbox" name="especialización">Frontend <br>
-          <input type="checkbox" name="especialización">UX
+          <input type="checkbox" name="especialización">Frontend Designer<br>
+          <input type="checkbox" name="especialización">UX Designer
         </div>
         <!-- foto -->
         <div class="perfil">

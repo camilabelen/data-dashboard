@@ -15,7 +15,7 @@ body{
 	background-color: #FFC600;
 	position: fixed;
 	padding-left: 0;
-	z-index: 2;
+	z-index: 3;
 }	
 
 /*Logo laboratoria*/
@@ -60,24 +60,34 @@ body{
 /*___Sub Menu____________________________________________________*/
 
 .dashboard{
-	margin-left: 17%;
-	margin-top: 10px;
+	margin-left: 15%;
+	margin-top: 30px;
 	font-weight: 500;
 	font-size: 1.3em;
+	width: 100%;
+	position:fixed;
+	background-color: #FFF;
 }
 
 #subMenu{
 	margin: 0 auto;
-	width: 87%;
+	top: 0;
+	width: 100%;
 	height: 40px;
 	position: fixed;
-	margin-top: 4%;
+	margin-top: 3%;
+	background-color: #FFF;
 }
 
 div.tabs{
+	margin: 0 auto;
+	top: 0;
 	overflow: hidden;
 	display: inline-flex;
-	margin-left: 16%;
+	margin-left: 14%;
+	margin-top: 50px;
+	background-color: #FFF;
+	width: 87%;
 }
 
 div.tabs button {
@@ -112,7 +122,7 @@ div.tabs button.active {
 	background-color: #FFC600;
 	padding-top: 80px;
 	position:fixed;
-	z-index: 1;
+	z-index: 2;
 	font-size:1.3em;
 }
 
@@ -172,31 +182,51 @@ div.tabs button.active {
 	margin-left: 180px;
 }
 
-/* Agregando Graficos*/
+/*___Secciones-graficos_____________________________________________*/
+
+#secciones{
+	width: 82%;
+	height: auto;
+	margin-left: 14%;
+    display: inline-block;
+    margin-top: 10%
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border: none;
+}
+
+/*Graficos de overview_____________*/
 #grafico1{
 	float: left;
     border-radius: 50%;
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     background-color: #026475;
-    margin-top: 30px;
-    margin-left: 50px;
-    position:relative;
+    margin-top: 35px;
+    margin-left: 40px;
 }
 
 #grafico1 p{
-	position:absolute;
-	margin: 120px;
-	padding: 20px;
 	font-size: 1.3em;
 	font-weight: 500;
-	color: #E4E4E4;
+	color: #E4E4E4;	
+	margin-left: 120px;
+	margin-top: 100px;
+}
+
+#firstRow{
+	display: block;
 }
 
 #grafico1 p:last-child{
 	font-size: 3em;
-	margin-left: 130px;
 	color: #FFF;
+	margin:0;
+	margin-left: 130px;
 }
 
 .total{
@@ -208,21 +238,73 @@ div.tabs button.active {
 
 #grafico2{
 	float:left;
-
 }
 
 #grafico2 img{
-    width: 600px;
+    width: 550px;
     margin-top: 30px;
     margin-left: 150px;
     
 }
 
-.g2{
-	display: inline-flex;
-   	margin-left: 150px;
-    margin-top: 8px;
-    font-weight: 500;
+#achievement{
+	width: 140px;
+	display: inline-block;
+	margin-left: 10%;
+	margin-top: 30px;
+}
+#secondRow{
+	display: block;
+}
+
+#techSkills{
+	width: 100px;
+	display: inline-block;
+	margin-left: 20%;
+	margin-top: 50px;
+}
+
+#thirdhRow{
+	display: block;
+}
+
+#lifeSkills{
+	width: 100px;
+	margin-left: 20%;
+	margin-top: 80px;
+}
+
+#fourthRow{
+	display: block;
+	margin-top: 80px;
+}
+
+#NPS{
+	width: 140px;
+	display: inline-block;
+	
+	vertical-align: top;
+}
+
+#studentSatisfaction{
+	width: 140px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 280px;
+}
+
+#teacherRating{
+	width: 140px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 290px;
+}
+
+#jediRating{
+	width: 140px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 310px;
 }
 
 
@@ -262,23 +344,6 @@ div.tabs button.active {
 .c {
 	margin-top: 12px;
 	margin-left: 12px;
-}
-
-/*___Secciones-graficos_____________________________________________*/
-
-#secciones{
-	width: 82%;
-	height: auto;
-	margin-left: 14%;
-    display: inline-block;
-    margin-top: 10%
-}
-
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border: none;
 }
 
 /*_______Seccion estudiantes____________________________*/

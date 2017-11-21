@@ -11,7 +11,7 @@ body{
 #globalMenu{
 	margin:0 auto;
 	width: 100%;
-	height: 60px;
+	height: 65px;
 	background-color: #FFC600;
 	position: fixed;
 	padding-left: 0;
@@ -21,13 +21,13 @@ body{
 /*Logo laboratoria*/
 #logo{
 	background-color: #FFF;
-	width: 250px;
-	height: 60px;
+	width: 265px;
+	height: 65px;
 	margin-left: 0;
 }
 
 #globalMenu img{
-	width: 180px;
+	width: 190px;
 	margin-left: 30px;
 	vertical-align: middle;
 }
@@ -40,7 +40,7 @@ body{
 
 /*barra de búsqueda*/
 #globalMenu input{
-	margin-left: 1200px;
+	margin-left: 1300px;
 	width: 300px;
 	border: none;
 	border-radius: 10px;
@@ -117,12 +117,16 @@ div.tabs button.active {
 }
 
 /*foto usuario*/
-#user img{
-	width: 80px;
+#photouser{
+	display: inline-block;
+}
+
+#photouser img{
+	width: 90px;
 	margin: 20px;
 }
 
-#user p{
+#nameuser{
 	display: inline-block;
 }
 
@@ -170,11 +174,13 @@ div.tabs button.active {
 
 /* Agregando Graficos*/
 #grafico1{
-	
+	float: left;
     border-radius: 50%;
     height: 350px;
     width: 350px;
     background-color: #026475;
+    margin-top: 30px;
+    margin-left: 50px;
     position:relative;
 }
 
@@ -184,10 +190,13 @@ div.tabs button.active {
 	padding: 20px;
 	font-size: 1.3em;
 	font-weight: 500;
+	color: #E4E4E4;
 }
 
 #grafico1 p:last-child{
 	font-size: 3em;
+	margin-left: 130px;
+	color: #FFF;
 }
 
 .total{
@@ -198,12 +207,14 @@ div.tabs button.active {
 }
 
 #grafico2{
-	display: inline-block;
+	float:left;
+
 }
 
 #grafico2 img{
-	display: inline-flex;
     width: 600px;
+    margin-top: 30px;
+    margin-left: 150px;
     
 }
 

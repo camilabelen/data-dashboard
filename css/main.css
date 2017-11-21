@@ -341,8 +341,18 @@ div.tabs button.active {
 	margin-left: 12px;
 }
 .p5 {
-	
+
 	font-size: 12px;
 	margin-top: 12px;
 	margin-left: 12px;
+}
+#descarga 
+{
+    margin-top: 37px;
+    margin-left: 686px;
+}
+#carga {
+
+    margin-top: -24px;
+    margin-left: 738px;
 }

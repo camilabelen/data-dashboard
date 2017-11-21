@@ -69,6 +69,7 @@ body{
 	background-color: #FFF;
 }
 
+/*contenedor elementos de sub-menu*/
 #subMenu{
 	margin: 0 auto;
 	top: 0;
@@ -79,6 +80,7 @@ body{
 	background-color: #FFF;
 }
 
+/*elementos overview, sprints, students, teachers*/
 div.tabs{
 	margin: 0 auto;
 	top: 0;
@@ -130,12 +132,12 @@ div.tabs button.active {
 #photouser{
 	display: inline-block;
 }
-
+/*foto de perfil*/
 #photouser img{
 	width: 90px;
 	margin: 20px;
 }
-
+/*nombre y cargo de usuario*/
 #nameuser{
 	display: inline-block;
 }
@@ -162,22 +164,19 @@ div.tabs button.active {
 	margin-right: 10px;
 }
 
-/*icono para desplegar filtros*/
-.fa-caret-down{
-	float:right;
-}
-
 /*input radio*/
 #filter input[type=radio]{
 	transform: scale(1.5);
 }
 
+/*icono de configuración*/
 #bottom{
 	position:absolute;
 	bottom: 80px;
 	margin: 20px;
 }
 
+/*icono para ocultar menu lateral*/
 .icon-eye-blocked{
 	margin-left: 180px;
 }
@@ -200,6 +199,13 @@ div.tabs button.active {
 }
 
 /*Graficos de overview_____________*/
+
+/*primera fila*/
+#firstRow{
+	display: block;
+}
+
+/*alumnas inscritas*/
 #grafico1{
 	float: left;
     border-radius: 50%;
@@ -218,10 +224,6 @@ div.tabs button.active {
 	margin-top: 100px;
 }
 
-#firstRow{
-	display: block;
-}
-
 #grafico1 p:last-child{
 	font-size: 3em;
 	color: #FFF;
@@ -229,13 +231,7 @@ div.tabs button.active {
 	margin-left: 130px;
 }
 
-.total{
-	text-align: center;
-	font-size: 1.8em;
-	font-weight: 600;
-	margin: 10px;
-}
-
+/*deserciones y activas*/
 #grafico2{
 	float:left;
 }
@@ -243,20 +239,23 @@ div.tabs button.active {
 #grafico2 img{
     width: 550px;
     margin-top: 30px;
-    margin-left: 150px;
-    
+    margin-left: 150px;   
 }
 
+/*logro*/
 #achievement{
 	width: 140px;
 	display: inline-block;
 	margin-left: 10%;
 	margin-top: 30px;
 }
+
+/*segunda fila*/
 #secondRow{
 	display: block;
 }
 
+/*habilidades tecnicas*/
 #techSkills{
 	width: 100px;
 	display: inline-block;
@@ -264,21 +263,25 @@ div.tabs button.active {
 	margin-top: 50px;
 }
 
+/*tercera fila*/
 #thirdhRow{
 	display: block;
 }
 
+/*HSE*/
 #lifeSkills{
 	width: 100px;
 	margin-left: 20%;
 	margin-top: 80px;
 }
 
+/*cuarta fila*/
 #fourthRow{
 	display: block;
 	margin-top: 80px;
 }
 
+/*NPS*/
 #NPS{
 	width: 140px;
 	display: inline-block;
@@ -286,6 +289,7 @@ div.tabs button.active {
 	vertical-align: top;
 }
 
+/*satisfaccion de estudiantes*/
 #studentSatisfaction{
 	width: 140px;
 	display: inline-block;
@@ -293,6 +297,7 @@ div.tabs button.active {
 	margin-left: 280px;
 }
 
+/*calificacion profesores*/
 #teacherRating{
 	width: 140px;
 	display: inline-block;
@@ -300,6 +305,7 @@ div.tabs button.active {
 	margin-left: 290px;
 }
 
+/*calificacion jedi master*/
 #jediRating{
 	width: 140px;
 	display: inline-block;

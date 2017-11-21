@@ -170,13 +170,24 @@ div.tabs button.active {
 
 /* Agregando Graficos*/
 #grafico1{
-	display: inline-flex;
+	
     border-radius: 50%;
-    height: 90px;
-    width: 90px;
-    border: 17px solid #6495ED;
-    margin-top: 2.5%;
-    text-align: center;
+    height: 350px;
+    width: 350px;
+    background-color: #026475;
+    position:relative;
+}
+
+#grafico1 p{
+	position:absolute;
+	margin: 120px;
+	padding: 20px;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+
+#grafico1 p:last-child{
+	font-size: 3em;
 }
 
 .total{
@@ -186,20 +197,14 @@ div.tabs button.active {
 	margin: 10px;
 }
 
-.g1{
-	display: inline-flex;
-   	margin-left: 150px;
-    margin-top: 8px;
-    font-weight: 500;
+#grafico2{
+	display: inline-block;
 }
 
-#grafico2{
+#grafico2 img{
 	display: inline-flex;
-	border-radius: 50%;
-    height: 90px;
-    width: 90px;
-    border: 17px solid #6495ED;
-    margin-left: 13%;
+    width: 600px;
+    
 }
 
 .g2{

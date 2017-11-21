@@ -297,8 +297,10 @@ div.tabs button.active {
 }
 
 .menu p{
-	font-size: 1.4em;
-	font-weight: 500;
+	 font-size: 1.4em;
+    font-weight: 500;
+    margin-top: -140px;
+    margin-left: 4px;
 }
 
 .perfil{
@@ -315,4 +317,32 @@ div.tabs button.active {
 .perfil p{
 	display: inline-block;
 
+}
+
+
+#foto1 {
+    display: inline-block;
+    width: 370px;
+    height: 292px;
+    margin-top: 82px;
+    margin-left: -18px;
+    border: 1px solid #ccc;
+}
+#foto1 img {
+	height: 133px;
+    width: 133px;
+    margin-top: 12px;
+    margin-left: 12px;
+
+}
+.p4 {
+	font-size: 12px;
+	margin-top: 12px;
+	margin-left: 12px;
+}
+.p5 {
+	
+	font-size: 12px;
+	margin-top: 12px;
+	margin-left: 12px;
 }
